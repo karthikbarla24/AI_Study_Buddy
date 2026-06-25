@@ -99,12 +99,12 @@ http://127.0.0.1:5000
 - More AI Models
 - Performance Analytics
 # 👩‍💻 Developer
-**Neelima Nakka**
-**Karthikeya Barla**
+**Neelima Nakka** ||
+**Karthikeya Barla**||
 **Jyothsna Gudapalli**
 GitHub:  
-https://github.com/Neelimanakka
+https://github.com/Neelimanakka ||
+https://github.com/karthikbarla24 ||
 https://github.com/Jyothsnagudapalli
-https://github.com/karthikbarla24
 # 📄 License
 This project is developed for educational and learning purposes only.
