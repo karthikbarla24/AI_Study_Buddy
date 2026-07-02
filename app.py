@@ -48,7 +48,7 @@ def explain():
 
         chat_completion = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
-            model="llama-3.3-70b-versatile",
+           model="openai/gpt-oss-120b",
         )
         return jsonify({"response": chat_completion.choices[0].message.content})
     except Exception as e:
