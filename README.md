@@ -27,7 +27,7 @@ https://ai-study-buddy-1-06qv.onrender.com/
 - Flask
 ## AI Integration
 - Groq API
-- Llama 3.3 70B Versatile Model
+- openai/gpt-oss-120b Model
 ## Database
 - SQLite
 ## Deployment
