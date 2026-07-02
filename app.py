@@ -78,7 +78,6 @@ def questions():
         return jsonify({"response": chat_completion.choices[0].message.content})
     except Exception as e:
         return jsonify({"response": f"System Error: {str(e)}"})
-
 @app.route("/save", methods=["POST"])
 def save():
     try:
@@ -100,6 +99,7 @@ def progress(name):
         conn.row_factory = sqlite3.Row
         rows = conn.execute("SELECT topic, score, date FROM progress WHERE student_name=?", (name,)).fetchall()
         conn.close()
+        
         return jsonify({"progress": [dict(row) for row in rows]})
     except Exception as e:
         return jsonify({"progress": [], "error": str(e)})
